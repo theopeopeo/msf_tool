@@ -11,9 +11,8 @@ st.image(logo, width=200)  # Adjust width as needed
 
 st.title("MSF Inventory Holding Cost Tool")
 
-# Login (simplified for now)
-USERNAME = "felicia"
-PASSWORD = "msf2025secure"
+USERNAME = st.secrets["credentials"]["username"]
+PASSWORD = st.secrets["credentials"]["password"]
 
 if "authenticated" not in st.session_state:
     st.session_state["authenticated"] = False
