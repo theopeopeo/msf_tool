@@ -232,7 +232,7 @@ with tab2:
                         except Exception as e:
                             st.error(f"Error processing your data: {e}")
 with tab3:
-            st.header("Estimate Inventory Holding Costs")
+            st.header("Estimate inventory holding costs")
 
             use_custom_rates = st.checkbox("Use custom cost coefficient file")
 
@@ -324,7 +324,7 @@ with tab3:
                     except Exception as e:
                         st.error(f"Error estimating holding costs: {e}")
             else:
-                st.info("Please upload both a valid inventory file to continue.")
+                st.info("Please upload a valid inventory file to continue.")
 
 with tab4:
     st.header("Developer manual")

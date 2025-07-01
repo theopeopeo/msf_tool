@@ -11,7 +11,7 @@ It’s intended for internal use and allows MSF staff to upload their own cost/i
 
 ---
 
-##  Project structure
+Project structure
 
 streamlit/
 │
